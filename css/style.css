@@ -1,9 +1,21 @@
 .main-title {
     text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.main-title-n {
+    font-family: 'Shadowa Into Light', cursive;
+    font-size: .8em;
+    text-transform: lowercase;
 }
 
 .nav-list {
     text-align: center;
+    background-color:#000;
+    margin: 0;
+    padding: 20px;
 }
 
 .nav-list li {
@@ -11,8 +23,57 @@
     padding: 0 10px;
 }
 
+.nav-list li a {
+    text-decoration: none;
+    color: seashell;
+}
+
 
 .main-content {
     height: 100vh;
     background-image: url(../images/charcuterie-plate.jpg);
+    border-left: 1em solid #000;
+    border-right: 1em solid #000;
+    border-bottom: 1em solid #000;
+    position: relative;
+    top: 0;
+    margin-top: 0;
+    overflow: hidden;
 }
+
+.fresh-sausages {
+    position: relative;
+    top: 32%;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 0;
+}
+
+.fresh-sausages:hover {
+    background-color: rgba(1,0,4,0.2);
+
+}
+
+.fresh-sausages hr {
+    color: #fff;
+    line-height: .2em;
+    position: relative;
+    top: 40%;
+    width: 100%;
+}
+
+.fresh-sausages h2 {
+    font-family: 'Jacques Francois Shadow', cursive;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    top: 35%;
+}
+
+/*************** FONTS ******************/
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Jacques Francois Shadow', cursive;
+font-family: 'Acme', sans-serif; */
