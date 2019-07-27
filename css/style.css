@@ -1,0 +1,18 @@
+.main-title {
+    text-align: center;
+}
+
+.nav-list {
+    text-align: center;
+}
+
+.nav-list li {
+    display: inline;
+    padding: 0 10px;
+}
+
+
+.main-content {
+    height: 100vh;
+    background-image: url(../images/charcuterie-plate.jpg);
+}
